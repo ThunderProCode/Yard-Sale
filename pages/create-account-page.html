@@ -6,46 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="../styles/login-page.css">
+    <link rel="stylesheet" href="../styles/create-account-page.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet"> 
 
-
 </head>
 <body>
     <div class="login">
         <div class="form-container">
-            <img src="../logos/logo_yard_sale.svg" alt="logo" class="logo">
+            <h1 class="title">Create a new password</h1>
 
             <form action="/" class="form">
-                <label for="email" 
-                class="label">Email address</label>
+                <label for="name" 
+                class="label">Name</label>
+                <input type="text" id="name" 
+                placeholder="John" 
+                class="input input-name">
 
+                <label for="email" 
+                class="label">Email</label>
                 <input type="text" id="email" 
                 placeholder="fake@gmail.com" 
                 class="input input-email">
 
                 <label for="password" 
                 class="label">Password</label>
-                
                 <input type="password" 
                 id="password" 
                 placeholder="********" 
                 class="input input-password">
-                
+               
                 <input type="submit" 
-                value="Log in" 
+                value="Confirm" 
                 class="primary-button 
                 login-button">
 
-                <a href="/">Forgot my password</a>
-
             </form>
-
-            <button class="secondary-button signup-button">Sign Up</button>
-
         </div>
     </div>
 </body>
